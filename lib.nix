@@ -5313,11 +5313,7 @@
         null (map top (see values));
     };
 
-  sourceFile = name: text:
-    builtins.path {
-      path = builtins.toFile name text;
-      inherit name;
-    };
+  sourceFile = builtins.toFile;
 in {
   cssSource = list: "${nodes list}\n";
 
