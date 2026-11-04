@@ -4,7 +4,7 @@ The library is `lib`, a plain attribute set that only needs nixpkgs `lib`:
 
 ```nix
 inputs.nix-generators = {
-  url = "git+file:///home/y0usaf/dev/developing/nix-generators";
+  url = "github:y0usaf/nix-generators";
   inputs.nixpkgs.follows = "nixpkgs";
 };
 
