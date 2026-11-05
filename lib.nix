@@ -1284,6 +1284,7 @@
       "WindowCx"
       "any"
       "boolean"
+      "error"
       "ipairs"
       "math"
       "number"
